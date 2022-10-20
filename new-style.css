@@ -2,6 +2,10 @@ body{
 	margin: 0;
 }
 
+body p{
+	opacity: 0.8;
+}
+
 .new-year{
 	background-color: #1A5B35;
 	position: relative;
@@ -23,13 +27,13 @@ body{
 .content-wish{
 	font-family: 'Montserrat';
 	font-weight: 400;
-	font-size: 17px;
+	font-size: 16px;
 	color: #FFFFFF;
 	text-align: center;
 }
 
 .nav-logo{
-	margin-top: 80px;
+	margin-top: 5%;
 	padding-left: 10px;
 	text-align: center;
 }
@@ -64,13 +68,14 @@ body{
 
 .flw-center{
 	font-family: 'Montserrat';
+	padding-left: 20%;
 	font-size: 17px;
 	color: #FFFFFF;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center	;
-	margin-top: -25px;
+	margin-top: -50px;
 }
 
 .music-text{
