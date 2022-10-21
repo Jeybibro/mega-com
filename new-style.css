@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	font-size: 16px;
 }
 
 body p{
@@ -13,7 +14,7 @@ body p{
 }
 
 .container{
-	width: 55%;
+	width: 65%;
 	margin: 0 auto;
 	padding-top: 120px;
 	position: relative;
@@ -26,15 +27,14 @@ body p{
 
 .content-wish{
 	font-family: 'Montserrat';
-	font-weight: 400;
-	font-size: 16px;
+	font-size: 1em;
 	color: #FFFFFF;
 	text-align: center;
 }
 
 .nav-logo{
-	margin-top: 5%;
-	padding-left: 10px;
+	margin-top: 2em;
+	padding-left: .6em;
 	text-align: center;
 }
 
@@ -45,16 +45,18 @@ body p{
 
 
 .muzic-logo{
-	margin: 15px;
+	margin: 1em;
 }
 
 .flw-left{
+	width:150px;
 	position: absolute;
-	top: 15px;
+	top: 1em;
 	left: 0;
 }
 
 .flw-right{
+	width: 150px;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -66,31 +68,35 @@ body p{
 	left: 0;
 }
 
+.flw-center img{
+	width: 16%;
+}
+
 .flw-center{
 	font-family: 'Montserrat';
-	padding-left: 20%;
-	font-size: 17px;
+	padding-left: 12%;
+	font-size: 1.1em;
 	color: #FFFFFF;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-align: center	;
+	text-align: center;
 	margin-top: -50px;
 }
 
 .music-text{
-	font-family: Montserrat-;
-	font-size: 12px;
+	font-family: 'Montserrat';
+	font-size: .7em;
 	color: #FFFFFF;
 	text-align: right;
-	margin-right: 20px;
+	margin-right: 1.3em;
 }
 
 .clock{
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 17px;
+	font-size: 1.1em;
 	text-align: center;
 	color: #FFFFFF;
 }
@@ -98,7 +104,7 @@ body p{
 .nav-antenn{
 	display: flex;
 	justify-content: space-between;
-	padding: 15px;
+	padding: .9em;
 }
 
 @media (min-width: 576px) {
@@ -109,7 +115,6 @@ body p{
 	.nav-antenn{
 		display: none;
 	}
-
 
 }
 
@@ -127,15 +132,15 @@ body p{
 	}
 
 	.content-wish{
-		font-size: 15px;
+		font-size: .9em;
 	}
 
 	.container{
 		padding-top: 0;
-		width:80%;
+		width:89%;
 	}
 
-	.flw-left{
-		width: 100px;
+	.flw-center img, .flw-right, .flw-left{
+		width:16%;
 	}
 }
